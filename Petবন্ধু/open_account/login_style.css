@@ -1,0 +1,56 @@
+/* General Reset */
+body {
+    margin: 100;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    background-image: url('../image/bee.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Login Card */
+.login-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 00%;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100px;
+}
+
+.login-card h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-card .form-group label {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.login-card .btn {
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+}
+
+.login-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-card a:hover {
+    text-decoration: underline;
+}
